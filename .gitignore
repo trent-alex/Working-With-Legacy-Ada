@@ -1,0 +1,40 @@
+# --- macOS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Files that might be created on network drives
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# --- Windows Specific ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+# Folder config file
+Desktop.ini
+# Recycle Bin used on separate drives
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# --- Common Dev Trash ---
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+dist/
+build/
+.vscode/
+.idea/
