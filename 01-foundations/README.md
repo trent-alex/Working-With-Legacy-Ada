@@ -8,8 +8,7 @@ The conceptual bedrock. B Feathers covers this material in Part I of the book (*
 
 - [What Is Legacy Code?](./what-is-legacy-code.md) — The working definition this entire guide is built on
 - [Four Reasons to Change Software](./four-reasons-to-change-software.md) — The taxonomy of change and why it matters
-- [Working with Feedback](./working-with-feedback.md) — Unit tests as a development tool, not just a quality gate
-- [The Legacy Code Algorithm](./the-legacy-code-algorithm.md) — The repeatable five-step process for making any change safely
+
 
 ---
 
