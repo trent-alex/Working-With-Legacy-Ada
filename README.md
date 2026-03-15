@@ -19,7 +19,7 @@ This guide reorganizes the material by topic and technique so you can navigate b
 **If you're new to the book**, start with the foundations:
 
 1. [01 — Foundations](./01-foundations/README.md) — What is legacy code, why tests matter, the core algorithm
-2. [02 — Seams](./02-Seams/README.md) — The single most important mental model in the book
+2. [02 — Seams](./02 -Seams/README.md) — The single most important mental model in the book
 3. [03 — Sensing and Separation](./03-sensing-and-separation/README.md) — Fakes, mocks, and why you need them
 4. [04 — Adding Features Safely](./04-adding-features/README.md) — Sprout and Wrap techniques
 
