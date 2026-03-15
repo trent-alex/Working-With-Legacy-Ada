@@ -33,7 +33,7 @@ package body Spreadsheets is
       Cell : Formula_Cell_Type :=
                Make_Formula_Cell (Sheet'Access, "A1", "=A2+A3");
    begin
-      Recalculate (Cell);   --  NOT a seam — type is fixed at construction
+      Recalculate (Cell);   --NOT a seam - type is fixed at construction
    end Build_Mart_Sheet;
 end Spreadsheets;
 ```
@@ -167,21 +167,19 @@ dispatch, no seam.
 
 **Enabling point is always the call site.** The production code inside
 `Build_Mart_Sheet` is identical before and after the refactor. Only what
-is passed to it changes. This mirrors Java exactly.
+is passed to it changes. 
 
 **`overriding` is enforced, not advisory.** Ada 2005 requires `overriding`
 on any subprogram that overrides a parent's primitive. If the parent
 signature changes and the override no longer matches, the compiler rejects
-it at the declaration — stronger than Java's optional `@Override`.
+it at the declaration.
 
 **Record fields for sensing.** A record component with a default
 initializer (`Recalculate_Called : Boolean := False`) guarantees clean
 state on each object construction — no equivalent of a forgotten reset
-between tests. Java testing subclasses use public boolean fields for the
-same purpose.
+between tests. 
 
-**No protected/private on dispatch.** Java uses `protected` to give a
-testing subclass access to override a method. In Ada any tagged type in a
+**No protected/private on dispatch.**  In Ada any tagged type in a
 package that `with`s the parent can extend and override its primitives —
 control access through which packages are compiled into the test partition,
 not through visibility keywords.
