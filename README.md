@@ -5,6 +5,15 @@ A topic-oriented reference companion to Michael Feathers' *Working Effectively w
 This repo does not reproduce the book. It organizes, explains, and cross-references the book's core ideas so you can find what you need when you're standing in front of a difficult codebase and need a technique, not a chapter.
 
 ---
+## Why I started this
+
+I dont have a conventional path to software. I started as a CSAR pilot and during my staff tour, I worked in plans and programs.  Here I built mathematical models. Well what's the best way to run a monte carlo scenario? If you say excel solver, automatic throat punch. Yeah, its scripting and automation tools.  Thus I started my SW journey. 
+
+Fast forward and I'm new to the department, new to Ada, and alot of legacy code.  I started with Beginning Ada Programming by Shvets and then Programming in Ada 95 by Barnes. This was great for syntax and rules. However, I was already diving in the deep end of a legacy codebase.
+
+I got recommended Working with Legacy Code, which primarily references JAVA examples. Everybody learns JAVA in school. Did I mention my nonconventional journey into SW?  Thus this repo. Enjoy.
+
+---
 
 ## What This Is
 
